@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 100vh;
+    background-color: #333636 !important;
+   
+
+
+}
+#main{
+    width: 50vh;
+}
+.list-group-item:nth-child(odd) {
+    background-color: #E6D9D1;
+}
+.list-group-item:nth-child(even) {
+    background-color:#BDD6F3;
+}
